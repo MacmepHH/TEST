@@ -1,18 +1,22 @@
 <html lang="ru">	
 	<head>		
 		<meta charset="UTF-8">
+		<base target="_blank">
 	</head>
 	<body background="https://im.wampi.ru/2022/09/05/eMule.jpg">
 		<font face="Segoe UI Black" color=#0094FF>
 		<h1 align="center"><u>Чек-лист проверок функционала формы регистрации в Системе</u></h1>
 		</font>
-		<ul type="disc">
 		<style>
 			li {line-height: 1.5;}
-			table {table-layout: fixed; margin: 2%; border-spacing: 2px 2px; background: gray;}
+			table {font-size: 20px; table-layout: fixed; margin: 2%; border-spacing: 2px 2px; background: gray;}
+			button {font-size: 20px; background: -webkit-gradient(linear, 0 0, 0  100%, from(#5BC9E1), to(#5BC9E1), color-stop(0.5, #D0ECF4)); border: 4px solid #2A3382; border-radius: 12px; margin: 2%;}
+			.pointer {cursor: pointer;}
+			.help {cursor: help;}
 		</style>
+		<ul type="disc">		
 				<font face="Verdana" size=4 color=#004A7F>
-				<li><b><big>Запуск формы регистрации в Системе на сайте <a href="https://qatest.606ep.ru/">популярной образовательной платформы</a> .</big></b></li><br>
+				<li><b><big>Запуск формы регистрации в Системе на сайте <a href="https://qatest.606ep.ru/" class="help" title="Переход на тестовый контур">популярной образовательной платформы</a> .</big></b></li><br>
 				<li><b><big>Оформление окон формы должно быть общим и в соответствии с разработанным дизайном.</big></b></li><br>
 				<li><b><big>Соблюдение правил конфиденциальности при обработке и хранении пользовательских данных, которые должны регламентироваться документом (по ссылке в общем доступе).</big></b></li><br>
 				<li><b><big>Конфигурирование полей для заполнения, гиперссылок, кнопок перехода на следующую итерацию и других элементов взаимодействия при работе с Системой,
@@ -30,8 +34,16 @@
 				<li><b><big>Интуитивно понятный переход между окнами в рамках разработки <em>«user friendly»</em> интерфейса.</big></b></li>
 				</font>				
 		</ul>
-	<table width="35%" border="2">
-		<thead bgcolor="#7FC9FF">
+		<p style="text-align: justify">
+				<a href="https://docs.google.com/document/d/1qt1dbogQFkgbhKFD7yn7i-15qUyJWT6O/edit?usp=sharing&ouid=104975954694932322673&rtpof=true&sd=true" title="Загрузка в формате документа">
+				<button class="pointer"><img src="https://im.wampi.ru/2022/09/07/logo_Word.png" width="100" height="100" alt="Загрузить баг-репорт" style="vertical-align: middle"><font color=#2A3382><b>Баг-репорт</b></font></button></a>
+				<a href="https://docs.google.com/spreadsheets/d/1RqhrofomW9dp-h20sDD0aqv6OBaaBxtg/edit?usp=sharing&ouid=104975954694932322673&rtpof=true&sd=true" title="Загрузка в формате таблицы">
+				<button class="pointer"><img src="https://im.wampi.ru/2022/09/07/logo_Excel.png" width="100" height="100" alt="Загрузить тест-кейсы" style="vertical-align: middle"><font color=#007234><b>Тест-кейсы</b></font></button></a>
+				<a href="https://macmephh.github.io/TEST/questions.html" title="Загрузка в формате текущего окна страницы" target="_self">
+				<button class="help"><img src="https://ie.wampi.ru/2022/09/07/logo_Notepad.png" width="100" height="100" alt="Загрузить вопросы аналитику" style="vertical-align: middle"><font color=#2A3382><b>Перечень вопросов</b></font></button></a>
+		</p>
+	<table width="49.5%" border="2">		
+		<thead bgcolor="#00EBFF">
 			<tr>
 				<th>
 					Автор
@@ -41,7 +53,7 @@
 				</th>
 			</tr>
 		</thead>
-				<tbody align="center" bgcolor="#7FC9FF">
+				<tbody align="center" bgcolor="#00EBFF">
 					<tr>
 						<td>
 							MacmepHH
@@ -51,7 +63,7 @@
 						</td>
 					</tr>
 				</tbody>
-					<tfoot bgcolor="#7FC9FF">
+					<tfoot bgcolor="#00EBFF">
 						<tr>
 							<th colspan="2">
 								© Авторские права защищены | 2022 г.
